@@ -16,16 +16,8 @@
     align-items: center;
         }
         
-        h1 {
-  width:500px;
-  height:2.2em;
-  line-height:2.2em;
-  margin:0 auto;
-  border:3px solid #DDD;
-  font-size:1.5em;
-  background-color:#EEE;
-  overflow:hidden;
-}
+@keyframes animacja-napisu { 0% { opacity: 0; transform: translateY(-20px); } 100% { opacity: 1; transform: translateY(0); } } 
+        /* Styl dla napisu */ h1 { animation: animacja-napisu 1s ease-in-out; }
     </style>
 </head>
 <body>
